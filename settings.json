@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.defaultLocation": "editor",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Jetbrains Mono",
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+    "terminal.integrated.fontSize": 16,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.copyOnSelection": true,
+    "files.trimTrailingWhitespace": true,
+}
