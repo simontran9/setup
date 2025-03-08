@@ -1,5 +1,7 @@
 # setup
 
+My Linux development setup, but using macOS as the host OS.
+
 1. Install [visual studio code](https://code.visualstudio.com/) and jetbrains mono, install `code` command, and set the `settings.json` config
 
 2. Change to old bash temporarily
