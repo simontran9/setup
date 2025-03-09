@@ -54,7 +54,12 @@ My Linux development setup
    ```sh
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    ```
-   
+
+7. Install ripgrep
+
+   ```sh
+   sudo apt ripgrep
+   ```
 
 
 
