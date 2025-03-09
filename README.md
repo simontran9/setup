@@ -6,43 +6,25 @@ My Linux development setup.
 
 1. Install [visual studio code](https://code.visualstudio.com/) and jetbrains mono, install `code` command, and set the `settings.json` config
 
-2. Change to old bash temporarily
+2. Create a `.bashrc` and a `.bash_profile`
+```sh
+touch ~/.bashrc ~/.bash_profile
+# then copy contents from here to the files
+```
 
-   ```sh
-   chsh -s /bin/bash
-   ```
-   
-3. Create a `.bashrc` and a `.bash_profile`
+3. Update and upgrade
+```sh
+sudo apt update
+sudo apt upgrade
+```
 
-4. Install homebrew, then turn off analytics
+4. Install core tools
+```sh
+sudo apt install -y build-essential
+```
 
-   ```sh
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   eval "$(/opt/homebrew/bin/brew shellenv)"
-   brew analytics off
-   ```
+5. Set up the git config, and set up an SSH key
 
-5. Install bash
-
-   ```sh
-   brew install bash
-   ```
-   
-6. Add a line containing the homebrew bash from `which -a bash` into `etc/shells`
-
-7. Change to the new homebrew bash
-
-   ```sh
-   chsh -s /opt/homebrew/bin/bash
-   sudo chsh -s /opt/homebrew/bin/bash
-   ```
-
-8. Install homebrew git, add a global `~/.config/git/ignore` file, set up the git config, and set up an SSH key
-
-   ```sh
-   brew install git
-   ```
-   
    ```sh
    git config --global user.name "Simon Tran"
    git config --global user.email <MY EMAIL>
@@ -64,7 +46,7 @@ My Linux development setup.
    ssh -T git@github.com
    ```
 
-9. Install rust
+6. Install rust
 
    ```sh
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
