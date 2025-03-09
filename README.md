@@ -58,7 +58,7 @@ My Linux development setup
 7. Install ripgrep
 
    ```sh
-   sudo apt ripgrep
+   sudo apt install ripgrep
    ```
 
 
