@@ -4,7 +4,7 @@ My Linux development setup
 
 ## Steps
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/) and [Jetbrains Mono](https://www.jetbrains.com/lp/mono/), install `code` command, and set the `settings.json` config
+1. Install [Visual Studio Code](https://code.visualstudio.com/) and [Jetbrains Mono](https://www.jetbrains.com/lp/mono/), install `code` command, and set the config in `settings.json`
 
 2. Create a `.bashrc` and a `.bash_profile`
 
