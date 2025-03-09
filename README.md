@@ -7,21 +7,24 @@ My Linux development setup.
 1. Install [visual studio code](https://code.visualstudio.com/) and jetbrains mono, install `code` command, and set the `settings.json` config
 
 2. Create a `.bashrc` and a `.bash_profile`
-```sh
-touch ~/.bashrc ~/.bash_profile
-# then copy contents from here to the files
-```
+
+   ```sh
+   touch ~/.bashrc ~/.bash_profile
+   # then copy contents from here to the files
+   ```
 
 3. Update and upgrade
-```sh
-sudo apt update
-sudo apt upgrade
-```
+
+   ```sh
+   sudo apt update
+   sudo apt upgrade
+   ```
 
 4. Install core tools
-```sh
-sudo apt install -y build-essential
-```
+
+   ```sh
+   sudo apt install -y build-essential
+   ```
 
 5. Set up the git config, and set up an SSH key
 
