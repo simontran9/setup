@@ -1,6 +1,6 @@
 # setup
 
-My Linux development setup.
+My Linux development setup
 
 ## Steps
 
