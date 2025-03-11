@@ -1,16 +1,22 @@
 # setup
 
-My Linux development setup
+My development setup
 
 ## Steps
 
+### macOS (host OS)
+
 1. Install [Visual Studio Code](https://code.visualstudio.com/), [Jetbrains Mono](https://www.jetbrains.com/lp/mono/), `code` command, and set the config in `settings.json`
 
-2. Create a `~/.bashrc` and a `~/.bash_profile`
+2. Install [Remote SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
+### Linux (dev OS)
+
+1. Create a `~/.bashrc` and a `~/.bash_profile`
 
    ```sh
    touch ~/.bashrc ~/.bash_profile
-   # then copy contents from here to the files
+   # then copy contents from the repo to the designated files
    ```
 
 3. Update and upgrade
