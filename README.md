@@ -1,6 +1,6 @@
 # setup
 
-My development setup
+My remote development setup
 
 ## Steps
 
