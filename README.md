@@ -1,4 +1,4 @@
-# setup
+# dev-setup
 
 Remote development setup
 
