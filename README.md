@@ -14,14 +14,9 @@ remote development setup
 
 ### Linux (dev OS)
 
-1. Create a `~/.bashrc` and a `~/.bash_profile`
+1. Copy contents from the repo `.bashrc` to `~/.bashrc`
 
-   ```sh
-   touch ~/.bashrc ~/.bash_profile
-   # then copy contents from the repo to the designated files
-   ```
-
-3. Update and upgrade
+2. Update and upgrade
 
    ```sh
    sudo yum update
