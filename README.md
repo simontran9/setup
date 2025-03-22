@@ -10,7 +10,19 @@ remote development setup
 
 2. Install [Remote SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-4. Setup`   
+3. Setup ssh keys to the remote box
+
+   ```sh
+   mv <private ssh key> ~/.ssh/<private ssh key>
+   cd ~/.ssh/
+   chmod 400 <private ssh key>
+   ssh -i <private ssh key> <username>@<public ip address>  
+   ```
+
+> [!note]
+> Run the following to move local files to the remote box:
+> 
+> `scp -r -i ~/.ssh/<private ssh key> <local folder of file> opc@<public ip address>:~/<new destination>`
 
 ### Linux (dev OS)
 
