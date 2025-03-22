@@ -10,6 +10,8 @@ remote development setup
 
 2. Install [Remote SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
+4. Setup`   
+
 ### Linux (dev OS)
 
 1. Create a `~/.bashrc` and a `~/.bash_profile`
@@ -22,14 +24,14 @@ remote development setup
 3. Update and upgrade
 
    ```sh
-   sudo apt update
-   sudo apt upgrade
+   sudo yum update
+   sudo yum update --security
    ```
 
 4. Install core tools
 
    ```sh
-   sudo apt install -y build-essential
+   sudo yum groupinstall 'Development Tools'
    ```
 
 5. Set up the git config, and set up an SSH key
@@ -64,7 +66,9 @@ remote development setup
 7. Install ripgrep
 
    ```sh
-   sudo apt install ripgrep
+   sudo yum install -y yum-utils
+   sudo yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   sudo yum install ripgrep
    ```
 
 
