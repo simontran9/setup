@@ -72,6 +72,13 @@ remote development setup
    sudo dnf install -y ripgrep
    ```
 
+8. Install hyperfine
+
+   ```sh
+   sudo dnf install hyperfine
+   ```
+
+
 
 
 
