@@ -19,14 +19,14 @@ remote development setup
 2. Update and upgrade
 
    ```sh
-   sudo yum update
-   sudo yum update --security
+   sudo dnf update
+   sudo dnf update --security
    ```
 
 4. Install core tools
 
    ```sh
-   sudo yum groupinstall 'Development Tools'
+   sudo dnf groupinstall 'Development Tools'
    ```
 
 5. Set up the git config, and set up an SSH key
