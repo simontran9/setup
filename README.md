@@ -61,9 +61,18 @@ remote development setup
 7. Install ripgrep
 
    ```sh
-   sudo yum install -y yum-utils
-   sudo yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
-   sudo yum install ripgrep
+   sudo dnf config-manager --set-enabled ol8_codeready_builder
+   
+   sudo dnf config-manager --set-enabled ol8_appstream
+   
+   sudo dnf install -y oracle-epel-release-el8
+   
+   sudo dnf config-manager --set-enabled ol8_developer_EPEL
+   
+   sudo dnf clean all
+   sudo dnf makecache
+   
+   sudo dnf install -y ripgrep
    ```
 
 
