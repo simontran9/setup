@@ -10,4 +10,9 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.copyOnSelection": true,
     "files.trimTrailingWhitespace": true,
+    "files.readonlyInclude": {
+        "**/.cargo/registry/src/**/*.rs": true,
+        "**/.cargo/git/checkouts/**/*.rs": true,
+        "**/lib/rustlib/src/rust/library/**/*.rs": true,
+    }
 }
