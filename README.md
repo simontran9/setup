@@ -22,7 +22,7 @@ remote development setup
 > [!note]
 > Run the following to move local files to the remote box:
 > 
-> `scp -r -i ~/.ssh/<private ssh key> <local folder of file> opc@<public ip address>:~/<new destination>`
+> `scp -r -i ~/.ssh/<private ssh key> <local folder of file> <username>@<public ip address>:~/<new destination>`
 
 ### Linux (dev OS)
 
