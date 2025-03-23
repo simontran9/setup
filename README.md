@@ -31,14 +31,14 @@ remote development setup
 2. Update and upgrade
 
    ```sh
-   sudo dnf update
-   sudo dnf update --security
+   sudo apt update
+   sudo apt upgrade
    ```
 
 4. Install core tools
 
    ```sh
-   sudo dnf groupinstall 'Development Tools'
+   sudo apt install build-essential
    ```
 
 5. Set up the git config, and set up an SSH key
@@ -70,24 +70,13 @@ remote development setup
 7. Install ripgrep
 
    ```sh
-   sudo dnf config-manager --set-enabled ol8_codeready_builder
-   
-   sudo dnf config-manager --set-enabled ol8_appstream
-   
-   sudo dnf install -y oracle-epel-release-el8
-   
-   sudo dnf config-manager --set-enabled ol8_developer_EPEL
-   
-   sudo dnf clean all
-   sudo dnf makecache
-   
-   sudo dnf install -y ripgrep
+   sudo apt install ripgrep
    ```
 
 8. Install hyperfine
 
    ```sh
-   sudo dnf install hyperfine
+   sudo apt install hyperfine
    ```
 
 
