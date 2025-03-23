@@ -26,7 +26,7 @@ remote development setup
 
 ### Linux (dev OS)
 
-1. Copy contents from the repo `.bashrc` to `~/.bashrc`
+1. Copy contents from the repo `.bashrc`, `.bash_profile` to `~/.bashrc` and `~/.bash_profile`, respectively
 
 2. Update and upgrade
 
