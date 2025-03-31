@@ -79,6 +79,8 @@ remote development setup
    sudo apt install hyperfine
    ```
 
+9. Install [watchexec](https://github.com/watchexec/watchexec)
+
 
 
 
