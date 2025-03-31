@@ -81,6 +81,10 @@ remote development setup
 
 9. Install [watchexec](https://github.com/watchexec/watchexec)
 
+   ```sh
+   sudo apt install ./<watchexec binary from github>.deb
+   ```
+
 
 
 
