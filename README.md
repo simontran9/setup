@@ -10,7 +10,9 @@ remote development setup
 
 2. Install [Remote SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-3. Setup ssh keys to the remote box
+3. Install [Markdown Preview Github styling](https://marketplace.visualstudio.com/items/?itemName=bierner.markdown-preview-github-styles)
+
+4. Setup ssh keys to the remote box
 
    ```sh
    mv <private ssh key> ~/.ssh/<private ssh key>
